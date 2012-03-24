@@ -1,0 +1,6 @@
+Revision history for Perl extension Task::Duallived.
+
+0.01  Fri Mar 23 06:01:14 2012
+	- original version; created by h2xs 1.23 with options
+		-ABX -b 5.5.0 -n Task::DualLived
+
