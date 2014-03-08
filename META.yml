@@ -3,16 +3,16 @@ abstract: 'Perl extension for updating dual-lived modules'
 author:
   - 'Kevin W. Henwood <Khen1950fx@yahoo.com>'
 build_requires:
-  ExtUtils::MakeMaker: 6.36
+  ExtUtils::MakeMaker: '6.36'
 configure_requires:
-  ExtUtils::MakeMaker: 6.36
+  ExtUtils::MakeMaker: '6.36'
 distribution_type: module
 dynamic_config: 1
 generated_by: 'Module::Install version 1.06'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: Task-DualLived
 no_index:
   directory:
@@ -59,6 +59,7 @@ requires:
   HTTP::Tiny: 0
   IO: 0
   IO::Compress::Base: 0
+  IO::Socket::IP: 0
   IO::Zlib: 0
   IPC::Cmd: 0
   IPC::Msg: 0
@@ -128,10 +129,10 @@ requires:
   if: 0
   lib: 0
   parent: 0
-  perl: 5.005
+  perl: '5.005'
   threads: 0
   threads::shared: 0
   version: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.02
+version: '0.03'

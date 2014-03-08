@@ -1,7 +1,7 @@
 package Task::DualLived;
 
 use 5.005;
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 1;
 __END__
@@ -33,11 +33,10 @@ Task::DualLived - Perl extension for updating dual-lived modules
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2012-2013 by Kevin W. Henwood
+Copyright (C) 2014 by Kevin W. Henwood
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.005 or,
 at your option, any later version of Perl 5 you may have available.
-
 
 =cut

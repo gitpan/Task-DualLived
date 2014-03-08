@@ -1,3 +1,4 @@
+
 use inc::Module::Install;
 
 name          'Task-DualLived';
@@ -59,6 +60,7 @@ requires      'Getopt::Long'              => 0;
 requires      'HTTP::Tiny'                => 0;
 requires      'IO'                        => 0;
 requires      'IO::Compress::Base'        => 0;
+requires      'IO::Socket::IP'            => 0;
 requires      'IO::Zlib'                  => 0;
 requires      'IPC::Cmd'                  => 0;
 requires      'IPC::Msg'                  => 0;
