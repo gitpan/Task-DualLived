@@ -3,16 +3,16 @@ abstract: 'Perl extension for updating dual-lived modules'
 author:
   - 'Kevin W. Henwood <Khen1950fx@yahoo.com>'
 build_requires:
-  ExtUtils::MakeMaker: '6.36'
+  ExtUtils::MakeMaker: 6.36
 configure_requires:
-  ExtUtils::MakeMaker: '6.36'
+  ExtUtils::MakeMaker: 6.36
 distribution_type: module
 dynamic_config: 1
-generated_by: 'Module::Install version 1.06'
+generated_by: 'Module::Install version 1.08'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: '1.4'
+  version: 1.4
 name: Task-DualLived
 no_index:
   directory:
@@ -23,7 +23,6 @@ requires:
   Attribute::Handlers: 0
   AutoLoader: 0
   B::Debug: 0
-  CGI: 0
   CPAN: 0
   CPAN::Meta: 0
   CPAN::Meta::Requirements: 0
@@ -50,6 +49,7 @@ requires:
   ExtUtils::Manifest: 0
   ExtUtils::ParseXS: 0
   ExtUtils::Typemaps: 0
+  Fatal: 0
   File::Fetch: 0
   File::Path: 0
   File::Temp: 0
@@ -57,6 +57,7 @@ requires:
   Filter::Util::Call: 0
   Getopt::Long: 0
   HTTP::Tiny: 0
+  I18N::LangTags: 0
   IO: 0
   IO::Compress::Base: 0
   IO::Socket::IP: 0
@@ -75,7 +76,6 @@ requires:
   Math::BigRat: 0
   Math::Complex: 0
   Memoize: 0
-  Module::Build: 0
   Module::CoreList: 0
   Module::Load: 0
   Module::Load::Conditional: 0
@@ -84,7 +84,6 @@ requires:
   NEXT: 0
   Net::Cmd: 0
   Net::Ping: 0
-  Package::Constants: 0
   Params::Check: 0
   Parse::CPAN::Meta: 0
   Perl::OSType: 0
@@ -126,6 +125,7 @@ requires:
   constant: 0
   encoding: 0
   encoding::warnings: 0
+  experimental: 0
   if: 0
   lib: 0
   parent: 0
@@ -135,4 +135,4 @@ requires:
   version: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: '0.03'
+version: '0.04'
