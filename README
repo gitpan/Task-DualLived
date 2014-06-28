@@ -1,4 +1,4 @@
-Task-DualLived version 0.04
+Task-DualLived version 0.05
 ==============================
 
 INSTALLATION
@@ -12,13 +12,9 @@ To install this module type the following:
 
 DEPENDENCIES
 
-This module requires these other modules and libraries:
-
   Test
 
 COPYRIGHT AND LICENSE
-
-Put the correct copyright and license information here.
 
 Copyright (C) 2014 by Kevin W. Henwood
 
